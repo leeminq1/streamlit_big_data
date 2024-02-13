@@ -10,10 +10,13 @@ from st_pages import Page, show_pages, add_page_title,add_indentation
 
 
 def pages():
+    main_page = 'app.py'
+    salary_page = "pages/age_salary.py"
+
     show_pages(
         [
-            Page("app.py", "Comment", "🔥"),
-            Page("pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
+            Page(main_page, "Comment", "🔥"),
+            Page(salary_page, "연령별 임금 및 근로시간", "📣"),
         ]
     )
 
