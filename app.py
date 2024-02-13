@@ -11,7 +11,6 @@ from st_pages import Page, show_pages, add_page_title,add_indentation
 
 # Optional -- adds the title and icon to the current page
 # add_page_title()
-add_indentation()
 # Specify what pages should be shown in the sidebar, and what their titles and icons
 # should be
 show_pages(
@@ -21,7 +20,7 @@ show_pages(
     ]
 )
 
-# st.rerun()
+add_page_title()
 
 
 #### session state ####
@@ -48,7 +47,7 @@ def fontRegistered():
 def main_text():
     st.header("통계청 데이터 기반 시각화")
     st.markdown("**자료갱신일:** 2023-12-26")
-    st.text('Streamlit 시각화 공부를 위해 통계청 데이터 기반 시각화 r2')
+    st.text('Streamlit 시각화 공부를 위해 통계청 데이터 기반 시각화 r1')
 
 
 def data_index_btn():
