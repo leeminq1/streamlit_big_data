@@ -16,8 +16,8 @@ def pages():
 
     show_pages(pages=
         [
-            Page(main_page, "Comment", "🔥"),
-            Page(salary_page, "연령별 임금 및 근로시간", "📣"),
+            Page(main_page, "Comment", ":house"),
+            Page(salary_page, "연령별 임금 및 근로시간", ":books:"),
         ]
     )
 
