@@ -10,15 +10,16 @@ from st_pages import Page, show_pages, add_page_title,add_indentation
 
 
 def pages():
-    # show_pages(
-    #     [
-    #         Page("/mount/src/streamlit_big_data/app.py", "Comment", "🔥"),
-    #         Page("/mount/src/streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
-    #     ]
-    # )
+    show_pages(
+        [
+            Page("/mount/src/streamlit_big_data/app.py", "Comment", "🔥"),
+            Page("/mount/src/streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
+        ]
+    )
 
     add_page_title()  # Optional method to add title and icon to current page
 
+    st.experimental_rerun()
 
 #### session state ####
 if "font" not in st.session_state:
