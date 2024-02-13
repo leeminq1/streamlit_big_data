@@ -21,6 +21,8 @@ show_pages(
     ]
 )
 
+st.experimental_rerun()
+
 
 #### session state ####
 if "font" not in st.session_state:
