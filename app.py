@@ -46,7 +46,7 @@ def fontRegistered():
 def main_text():
     st.header("통계청 데이터 기반 시각화")
     st.markdown("**자료갱신일:** 2023-12-26")
-    st.text('Streamlit 시각화 공부를 위해 통계청 데이터 기반 시각화 r1')
+    st.text('Streamlit 시각화 공부를 위해 통계청 데이터 기반 시각화 r2')
 
 
 def data_index_btn():
