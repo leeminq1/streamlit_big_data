@@ -1,12 +1,12 @@
 ## pages.toml
 #
 [[pages]]
-path = "streamlit_big_data/data_streamlit/app.py"
+path = "data_streamlit/app.py"
 name = "Comment"
 icon = ":house:"
 
 [[pages]]
-path = "streamlit_big_data/data_streamlit/pages/age_salary.py"
+path = "data_streamlit/pages/age_salary.py"
 name = "연령별 임금 및 근로시간"
 icon = ":house:"
 
