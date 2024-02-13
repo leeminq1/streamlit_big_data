@@ -15,6 +15,7 @@ def pages():
     salary_page = "pages/age_salary.py"
     another_page = "pages/another.py"
 
+
     show_pages(pages=
         [
             Page(main_page, "Comment", icon="💛"),
