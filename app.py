@@ -13,11 +13,13 @@ from pathlib import Path
 def pages():
     main_page = 'app.py'
     salary_page = "pages/age_salary.py"
+    another_page = "pages/another.py"
 
     show_pages(pages=
         [
             Page(main_page, "Comment", ":house"),
             Page(salary_page, "연령별 임금 및 근로시간", ":books:"),
+            Page(another_page, "Another Page")
         ]
     )
 
