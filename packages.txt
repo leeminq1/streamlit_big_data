@@ -1,5 +1,0 @@
-default-jre
-language-pack-ko
-korean*
-fonts-unfonts-core
-msttcorefonts
