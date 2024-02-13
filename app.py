@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import streamlit.components.v1 as components
-from st_pages import Page, show_pages, add_page_title,add_indentation
+from st_pages import Page, show_pages, add_page_title,add_indentation,show_pages_from_config
 from pathlib import Path
 
 
@@ -14,6 +14,7 @@ def pages():
     main_page = 'app.py'
     salary_page = "pages/age_salary.py"
 
+    show_pages_from_config()
     # show_pages(pages=
     #     [
     #         Page(main_page, "Comment", "🔥"),
@@ -21,7 +22,7 @@ def pages():
     #     ]
     # )
     #
-    # add_page_title()  # Optional method to add title and icon to current page
+    add_page_title()  # Optional method to add title and icon to current page
 
 
 
