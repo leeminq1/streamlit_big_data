@@ -24,10 +24,7 @@ def pages():
     # add_page_title()  # Optional method to add title and icon to current page
 
 
-with st.echo("below"):
-    from st_pages import show_pages_from_config
 
-    show_pages_from_config()
 
 
 #### session state ####
