@@ -66,7 +66,7 @@ def data_index_btn():
         if clicked_buttons[i]:
             # 페이지 이동을 위한 URL 설정
             if data == '연령별 임금 및 근로시간':
-                page_url = '/pages/age_salary.py'
+                page_url = 'pages/age_salary.py'
                 st.switch_page(page_url) ### page 이동 ###
 
             elif data == '연령별 임금 및 근로시간2':
