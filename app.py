@@ -9,14 +9,15 @@ import streamlit.components.v1 as components
 from st_pages import Page, show_pages, add_page_title,add_indentation
 
 
-show_pages(
-    [
-        Page("/mount/src/streamlit_big_data/app.py", "Comment", "🔥"),
-        Page("/mount/src/streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
-    ]
-)
+def pages():
+    show_pages(
+        [
+            Page("/mount/src/streamlit_big_data/app.py", "Comment", "🔥"),
+            Page("/mount/src/streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
+        ]
+    )
 
-add_page_title()  # Optional method to add title and icon to current page
+    add_page_title()  # Optional method to add title and icon to current page
 
 
 #### session state ####
@@ -70,6 +71,7 @@ def data_index_btn():
 def main():
 
     ### loading 시 main page로 이동 ###
+    pages()
 
 
     fontRegistered()
@@ -93,5 +95,5 @@ def main():
 
 
 if __name__ == '__main__':
-    # main()
-    print("##")
+    main()
+    # print("##")
