@@ -3,7 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
+from st_pages import Page, show_pages, add_page_title,add_indentation
 
+
+add_page_title()
 
 #### session state ####
 ## font ##

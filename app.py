@@ -16,7 +16,7 @@ show_pages(
     ]
 )
 
-add_page_title()
+add_page_title()  # Optional method to add title and icon to current page
 
 
 #### session state ####
