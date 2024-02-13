@@ -20,7 +20,7 @@ def pages():
         [
             Page(main_page, "Comment", icon="💛"),
             Page(salary_page, "연령별 임금 및 근로시간", icon="🟩"),
-            Page(another_page, "Another Page", icon="🟥")
+            # Page(another_page, "Another Page", icon="🟥")
         ]
     )
 
