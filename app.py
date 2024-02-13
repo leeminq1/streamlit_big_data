@@ -12,8 +12,8 @@ from st_pages import Page, show_pages, add_page_title,add_indentation
 def pages():
     show_pages(
         [
-            Page("streamlit_big_data/app.py", "Comment", "🔥"),
-            Page("streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
+            Page("app.py", "Comment", "🔥"),
+            Page("pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
         ]
     )
 
