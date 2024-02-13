@@ -1,12 +1,12 @@
 # pages.toml
 
 [[pages]]
-path = "app.py"
+path = "../app.py"
 name = "Comment"
-icon = "🏠"
+icon = "💛"
 
 [[pages]]
-path = "pages/about.py"
+path = "../pages/age_salary.py"
 name = "연령별 임금 및 근로시간"
 icon = "🦦"
 
