@@ -1,0 +1,12 @@
+## pages.toml
+#
+[[pages]]
+path = "app.py"
+name = "Comment"
+icon = ":house:"
+
+[[pages]]
+path = "pages/age_salary.py"
+name = "연령별 임금 및 근로시간"
+icon = ":house:"
+
