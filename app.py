@@ -19,7 +19,7 @@ def pages():
 
     add_page_title()  # Optional method to add title and icon to current page
 
-    st.experimental_rerun()
+
 
 #### session state ####
 if "font" not in st.session_state:
