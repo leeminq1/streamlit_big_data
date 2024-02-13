@@ -1,13 +1,13 @@
 # config.toml 파일
 [theme]
 primaryColor="green" 			# theme
-secondaryBackgroundColor="red" 		# side bar
+#secondaryBackgroundColor="red" 		# side bar
 
 
-#[pages]
-#path = "app.py"
-#name = "Comment"
-#icon = "💛"
+[pages]
+path = "app.py"
+name = "Comment"
+icon = "💛"
 #
 #[pages]
 #path = "pages/age_salary.py"
