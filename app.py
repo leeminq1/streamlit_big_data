@@ -17,9 +17,9 @@ def pages():
 
     show_pages(pages=
         [
-            Page(main_page, "Comment", ":house"),
-            Page(salary_page, "Comment2", ":books:"),
-            Page(another_page, "Another Page")
+            Page(main_page, "Comment", icon="💛"),
+            Page(salary_page, "Comment2", icon="🟩"),
+            Page(another_page, "Another Page", icon="🟥")
         ]
     )
 
