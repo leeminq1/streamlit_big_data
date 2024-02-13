@@ -2,3 +2,14 @@
 [theme]
 primaryColor="green" 			# theme
 secondaryBackgroundColor="red" 		# side bar
+
+
+[[pages]]
+path = "streamlit_big_data/app.py"
+name = "Comment"
+icon = "💛"
+
+[[pages]]
+path = "streamlit_big_data/pages/age_salary.py"
+name = "연령별 임금 및 근로시간"
+icon = "🦦"
