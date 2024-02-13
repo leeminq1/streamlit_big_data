@@ -13,11 +13,11 @@ def pages():
     show_pages(
         [
             Page("/mount/src/streamlit_big_data/app.py", "Comment", "🔥"),
-            Page("/mount/src/streamlit_big_data/pages/age_salary.py", "연령별 임금 및 근로시간", "📣"),
+            Page("/mount/src/streamlit_big_data/pages/age_salary.py", "dfdf", "📣"),
         ]
     )
 
-    add_page_title()  # Optional method to add title and icon to current page
+    # add_page_title()  # Optional method to add title and icon to current page
 
 
 #### session state ####
