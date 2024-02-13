@@ -21,7 +21,7 @@ show_pages(
     ]
 )
 
-st.rerun()
+# st.rerun()
 
 
 #### session state ####
