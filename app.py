@@ -14,14 +14,13 @@ def pages():
     main_page = 'app.py'
     salary_page = "pages/age_salary.py"
 
-    show_pages_from_config()
-    # show_pages(pages=
-    #     [
-    #         Page(main_page, "Comment", "🔥"),
-    #         Page(salary_page, "연령별 임금 및 근로시간", "📣"),
-    #     ]
-    # )
-    #
+    show_pages(pages=
+        [
+            Page(main_page, "Comment", "🔥"),
+            Page(salary_page, "연령별 임금 및 근로시간", "📣"),
+        ]
+    )
+
     add_page_title()  # Optional method to add title and icon to current page
 
 

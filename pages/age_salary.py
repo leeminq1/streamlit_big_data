@@ -5,10 +5,19 @@ import pandas as pd
 import numpy as np
 from st_pages import Page, show_pages, add_page_title,add_indentation,show_pages_from_config
 
+def pages():
+    main_page = 'app.py'
+    salary_page = "pages/age_salary.py"
 
+    show_pages(pages=
+        [
+            Page(main_page, "Comment", "🔥"),
+            Page(salary_page, "연령별 임금 및 근로시간", "📣"),
+        ]
+    )
 
-show_pages_from_config()
-add_page_title()
+    add_page_title()  # Optional method to add title and icon to current page
+
 
 #### session state ####
 ## font ##
